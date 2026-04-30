@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f5f9;
+  color: rgb(20,20,20);
+}
+
+.appWrap {
+  padding: 13px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 7px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-primary {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn-primary:hover {
+  background: blue;
+}
+
+.errorText {
+  color: red !important;
+  margin-top: 6px;
+}
+
+.gain {
+  color: green;
+}
+
+.loss {
+  color: #d11 !important;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #777;
+  padding: 9px;
+}
+
+input, select {
+  padding: 8px;
+  margin: 6px 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,38 @@
+# Audit Checklist
+
+## Technical Requirements
+- [x] Authentication (signup, login, JWT protected routes)
+- [x] Database design with users + simulations
+- [x] Core simulation logic implemented in backend route
+- [x] Backend routes + middleware implemented
+- [x] Frontend pages + routing + fetch integration
+- [x] Security minimum 2: input validation + protected routes
+- [x] Basic responsive behavior
+- [x] Interactive features: create/load/select/delete simulations
+
+## Technical Report
+- [x] Problem Definition
+- [x] System Architecture
+- [x] Database Design
+- [x] Core Logic Explanation
+- [x] Query Explanation
+- [x] Security Analysis
+- [x] Scalability Discussion
+
+## Deployment
+- [ ] Backend live URL (Render/Railway)
+- [ ] Frontend live URL (Vercel/Netlify)
+- [ ] MongoDB Atlas connected in production
+
+## Handwritten Understanding
+- [x] Q1 System flow
+- [x] Q2 API route
+- [x] Q3 Database relationship
+- [x] Q4 Core logic trace
+- [x] Q5 Security flaw and fix
+
+## Final Pre-Submission
+- [x] Backend code exists and runs with env
+- [x] Frontend code exists and builds
+- [ ] Live deployment complete
+- [x] `.gitignore` includes `node_modules` and `.env`
