@@ -20,9 +20,9 @@
 - [x] Scalability Discussion
 
 ## Deployment
-- [ ] Backend live URL (Render/Railway)
-- [ ] Frontend live URL (Vercel/Netlify)
-- [ ] MongoDB Atlas connected in production
+- [x] Backend live URL (Render): https://assignment-3-web-alp4.onrender.com
+- [ ] Frontend live URL (Vercel/Netlify) — set `REACT_APP_API_URL` to backend URL above
+- [x] MongoDB Atlas connected in production (via Render `MONGO_URI`)
 
 ## Handwritten Understanding
 - [x] Q1 System flow
@@ -34,5 +34,5 @@
 ## Final Pre-Submission
 - [x] Backend code exists and runs with env
 - [x] Frontend code exists and builds
-- [ ] Live deployment complete
+- [ ] Live deployment complete (backend done; deploy frontend on Vercel)
 - [x] `.gitignore` includes `node_modules` and `.env`
