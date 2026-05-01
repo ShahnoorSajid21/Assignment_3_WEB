@@ -21,11 +21,11 @@
 
 ## Deployment
 - [x] Backend live URL (Render): https://assignment-3-web-alp4.onrender.com
-- [ ] Frontend live URL (Vercel/Netlify) — set `REACT_APP_API_URL` to backend URL above
+- [x] Frontend live URL (Vercel/Netlify) — working; paste exact URL in `handwritten/questions_and_answers.md` optional section if needed
 - [x] MongoDB Atlas connected in production (via Render `MONGO_URI`)
 
 ## Handwritten Understanding
-- [x] Q1 System flow
+- [x] Q1 System flow (`handwritten/questions_and_answers.md`)
 - [x] Q2 API route
 - [x] Q3 Database relationship
 - [x] Q4 Core logic trace
@@ -34,5 +34,5 @@
 ## Final Pre-Submission
 - [x] Backend code exists and runs with env
 - [x] Frontend code exists and builds
-- [ ] Live deployment complete (backend done; deploy frontend on Vercel)
+- [x] Live deployment complete (backend + frontend)
 - [x] `.gitignore` includes `node_modules` and `.env`
